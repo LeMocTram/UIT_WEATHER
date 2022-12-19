@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#B38C8C"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="381dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="50dp"
+        card_view:cardCornerRadius="50dp"
+        card_view:cardElevation="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/title_asset"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="20dp"
+                android:text="TEXT"
+                android:textAlignment="center"
+                android:textColor="#5020A6"
+                android:textSize="35dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:layout_marginBottom="45dp"
+            >
+
+            <RelativeLayout android:background="#A8F8E8">
+
+                <TextView
+                    android:id="@+id/tv1"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:text="Humidity :"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/humidity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="10dp"
+                    android:layout_toRightOf="@+id/tv1"
+                    android:text="Text"
+                    android:textColor="@color/black"
+                    android:translationX="140dp" />
+            </RelativeLayout>
+
+            <RelativeLayout android:background="#F1D5D5">
+
+                <TextView
+                    android:id="@+id/tv2"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:text="Temperature :"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/temperature"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="10dp"
+                    android:layout_toRightOf="@+id/tv2"
+                    android:text="Text"
+                    android:textColor="@color/black"
+                    android:translationX="140dp" />
+            </RelativeLayout>
+
+            <RelativeLayout android:background="#A8F8E8">
+
+                <TextView
+                    android:id="@+id/tv3"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:text="Wind Direction :"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/wDirection"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="10dp"
+                    android:layout_toRightOf="@+id/tv3"
+                    android:text="Text"
+                    android:textColor="@color/black"
+                    android:translationX="140dp" />
+            </RelativeLayout>
+
+            <RelativeLayout android:background="#F1D5D5">
+
+                <TextView
+                    android:id="@+id/tv4"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:text="Wind Speed :"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/wSpeed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="10dp"
+                    android:layout_toRightOf="@+id/tv4"
+                    android:text="Text"
+                    android:textColor="@color/black"
+                    android:translationX="140dp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout android:background="#A8F8E8">
+
+                <TextView
+                    android:id="@+id/tv5"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:text="Rainfall :"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/rainfall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="10dp"
+                    android:layout_toRightOf="@+id/tv5"
+                    android:text="Text"
+                    android:textColor="@color/black"
+                    android:translationX="140dp" />
+            </RelativeLayout>
+
+
+            <RelativeLayout android:background="#F1D5D5">
+
+                <TextView
+                    android:id="@+id/tv6"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:text="Sun altitude :"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/sun_altitude"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="10dp"
+                    android:layout_toRightOf="@+id/tv6"
+                    android:text="Text"
+                    android:textColor="@color/black"
+                    android:translationX="140dp" />
+            </RelativeLayout>
+
+            <RelativeLayout android:background="#A8F8E8">
+
+                <TextView
+                    android:id="@+id/tv7"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:text="Sun azimuth :"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/sun_azimuth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="10dp"
+                    android:layout_toRightOf="@+id/tv7"
+                    android:text="Text"
+                    android:textColor="@color/black"
+                    android:translationX="140dp" />
+            </RelativeLayout>
+        </TableLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

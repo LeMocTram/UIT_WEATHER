@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AssetDescriptors">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:text="AssetDescriptor"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Name"
+            android:textColor="@color/black"
+            android:id="@+id/name"
+            />
+
+        <TextView
+            android:textColor="@color/black"
+            android:id="@+id/Icon"
+            android:text="Icon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+        <TextView
+            android:textColor="@color/black"
+            android:id="@+id/colour"
+            android:text="colour"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:text="assetDiscovery"
+            android:layout_height="match_parent"
+            android:id="@+id/assetDiscovery"
+            />
+        <TextView
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:text="assetImport"
+            android:layout_height="match_parent"
+            android:id="@+id/assetImport"
+            />
+        <TextView
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:text="agentLinkType"
+            android:layout_height="match_parent"
+            android:id="@+id/agentLinkType"
+            />
+
+    </LinearLayout>
+</LinearLayout>
